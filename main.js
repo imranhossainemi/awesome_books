@@ -28,7 +28,7 @@ class Book {
       let markup = '';
       bookArr.forEach((elem, index) => {
         markup += `<div class='book'>
-        <p> "${elem.title}" by ${elem.author}</p>
+        <p> " ${elem.title} " by ${elem.author}</p>
         <button type="button" class="remove-btn" id="${index}">Remove</button>
       </div>`;
       });
