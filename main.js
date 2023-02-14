@@ -22,6 +22,7 @@ bookArr.forEach((item, index) => {
   <div class='book'>
     <p> "${item.title}" by ${item.author}</p>
     <button type="button" class="remove-btn" id="${index}">Remove</button>
+    <hr>
   </div>`;
 });
 
