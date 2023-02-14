@@ -2,3 +2,67 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.menu {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.books {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.books .book-list {
+  width: 500px;
+  height: auto;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.books .book-list .book {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-create {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-create .add-book {
+  width: 300px;
+  height: auto;
+}
+
+.book-create .add-book .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.book-create .add-book .form input {
+  width: 100%;
+  padding: 15px 5px;
+}
