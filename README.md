@@ -3,7 +3,7 @@
   <img src="5139.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone Project</b></h3>
+  <h3><b>Awesome Books</b></h3>
 
 </div>
 
@@ -28,11 +28,7 @@
 
 # 📖 [personal_portfoilo] <a name="about-project"></a>
 
-This is Capstone project for microvesre. Original design idea by Cindy Shin in Behance.
-
-Video description this project :-
-
-https://www.loom.com/share/adc16d6b601a443dbe39ebe75767ebc2
+This is Awesome books form microvesre. Using Javasricpt class object array creating and removing localstorage items.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -42,7 +38,7 @@ This Capstone project is built with :
     3. JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 
-For this projec design I am using mobile first approach create Homepage and About page. 
+For this projec design I am using form to create localstorage data and class object array to update the  page. 
 <!--
 <details>
   <summary>Client</summary>
@@ -72,7 +68,7 @@ For this projec design I am using mobile first approach create Homepage and Abou
 ### Key Features <a name="key-features"></a>
 
 > Currently do not have any key features
-Responsive all devices and screen
+
 <!--
 - **[Validate Email Input]**
 
@@ -87,7 +83,7 @@ Responsive all devices and screen
 
 > You can live demo form here.
 
-- [Live Demo Link]  https://imranhossainemi.github.io/capstone_project/
+- [Live Demo Link]  No demo link yet
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +114,7 @@ In order to run this project you need:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> In future going add javascript and framework.
+> In future going add more style to UX
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,12 +141,12 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> All credit goes to <a href="https://www.behance.net/adagio07"> Cindy Shin in Behance </a> for design
+> 
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+</a><br />This work is licensed under a <a rel="license" href="./LICENSE">mit License</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
