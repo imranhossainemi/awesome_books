@@ -31,6 +31,8 @@ footer {
   display: flex;
   flex-direction: column;
   border: 1px solid hsl(0, 0%, 50%);
+  align-items: center;
+  border-radius: 8px;
 }
 
 .books .book-list .book {
