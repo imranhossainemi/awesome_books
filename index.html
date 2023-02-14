@@ -7,17 +7,55 @@
     <title>Awesome Books</title>
 </head>
 <body>
-    <h1>Awesome Books</h1>
-    <div class="book-list">
+    <header class="menu">
+        <section class="topNav">
+            <div class="logo">
+                <p class="logoname">Book list</p>
+                <button type="button" class="mobile-btn">
+                    Open
+                </button>
+            </div>
+        </section>
+        <section class="downNav">
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item">Books</li>
+                    <li class="nav-item">Add Book</li>
+                    <li class="nav-item">Contact</li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="books">
+            <h1>Awesome Books</h1>
+            <div class="book-list">
 
-    </div>
-    <div class="add-book">
-        <form class="form">
-            <input type="text" name="title" id="title" placeholder="book title">
-            <input type="text" name="author"  id="author" placeholder="author">
-            <button type="submit" name="submit" class="btn-add">Abb</button>
-        </form>
-    </div>
+            </div>
+        </section>
+        <section class="book-create">
+            <div class="add-book">
+                <form class="form">
+                    <input type="text" name="title" id="title" placeholder="book title">
+                    <input type="text" name="author"  id="author" placeholder="author">
+                    <button type="submit" name="submit" class="btn-add">Abb</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="info">
+                <h2>Follow me</h2>
+                <ul class="links">
+                    <li class="link-item">Source Code: <a href="#">Github</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>All rights reserve to <a href="#">Imran Hossain</a></p>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
