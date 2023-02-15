@@ -71,7 +71,6 @@
   margin: 0;
 }
 
-
 .book:nth-child(even) {
   background-color: #fff;
 }
@@ -87,7 +86,6 @@
   margin: auto;
   gap: 25px;
   width: 240px;
-
 }
 
 .input {
@@ -138,5 +136,4 @@ footer {
   position: fixed;
   bottom: 5px;
   width: 99%;
-
 }
