@@ -50,6 +50,44 @@ class Book {
     removeBook();
   };
 }
+
+const booksSec = document.querySelector('.books');
+const bookCreate = document.querySelector('.book-create');
+const contact = document.querySelector('.contact');
+const booksLink = document.getElementById('books');
+const addBookLink = document.getElementById('add-book');
+const contactLink = document.getElementById('contact');
+
+function refresh() {
+  contact.style.display = 'none';
+  bookCreate.style.display = 'none';
+  booksSec.style.display = 'block';
+}
+window.onload = refresh();
+
+const navigation = () => {
+  booksLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    booksSec.style.display = 'block';
+    bookCreate.style.display = 'none';
+    contact.style.display = 'none';
+  });
+
+  addBookLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    bookCreate.style.display = 'block';
+    booksSec.style.display = 'none';
+    contact.style.display = 'none';
+  });
+
+  contactLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    bookCreate.style.display = 'none';
+    booksSec.style.display = 'none';
+    contact.style.display = 'block';
+  });
+};
 const awesomeBooks = new Book();
 awesomeBooks.addBook();
 awesomeBooks.showBooks();
+navigation();

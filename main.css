@@ -3,10 +3,6 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-.menu {
-  display: none;
-}
-
 .topNav {
   display: flex;
   flex-direction: row;
@@ -35,6 +31,21 @@
   height: 23px;
 }
 
+.date {
+  display: flex;
+  font-size: 12px;
+}
+
+.books-container {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .books {
   display: flex;
   flex-direction: column;
@@ -60,6 +71,7 @@
   margin: 0;
 }
 
+
 .book:nth-child(even) {
   background-color: #fff;
 }
@@ -75,10 +87,7 @@
   margin: auto;
   gap: 25px;
   width: 240px;
-}
 
-.line {
-  width: 100px;
 }
 
 .input {
@@ -113,7 +122,21 @@
   cursor: pointer;
 }
 
-.contact,
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
 footer {
-  display: none;
+  border: 2px solid;
+  background-color: #000;
+  color: #eaecee;
+  text-align: center;
+  margin-bottom: 3px;
+  position: fixed;
+  bottom: 5px;
+  width: 99%;
+
 }
