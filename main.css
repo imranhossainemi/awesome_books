@@ -2,95 +2,118 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
-.topNav{
+
+.menu {
+  display: none;
+}
+
+.topNav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 10px;
+  padding: 0 10px;
   border: 5px solid;
   align-items: center;
   border-radius: 6px;
 }
-.nav-menu{
+
+.nav-menu {
   display: flex;
   gap: 27px;
   list-style-type: none;
   align-items: center;
 }
-.nav-item:hover{
+
+.nav-item:hover {
   color: rgb(140, 0, 255);
   cursor: pointer;
 }
-.nav-line{
+
+.nav-line {
   width: 2px;
   height: 23px;
 }
-.books{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.book-list{
+
+.books {
   display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-border: 3px solid;
-border-radius: 6px;
+  flex-direction: column;
+  align-items: center;
 }
-.book{
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 8.5rem;
-    align-items: center;
-    padding: 0 15px;
-    margin: 0;
-  }
-  
-  .book:nth-child(even) {
-    background-color: #fff;
-  }
-  
-  .book:nth-child(odd) {
-    background-color: #eee;
-  }
-  
-.form{
+  border: 3px solid;
+  border-radius: 6px;
+}
+
+.book {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8.5rem;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0;
+}
+
+.book:nth-child(even) {
+  background-color: #fff;
+}
+
+.book:nth-child(odd) {
+  background-color: #eee;
+}
+
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  gap:25px;
-  width:240px;
+  gap: 25px;
+  width: 240px;
 }
-.line{
+
+.line {
   width: 100px;
 }
-.input{
+
+.input {
   width: 240px;
   height: 32px;
 }
-.btn-add{
+
+.btn-add {
   display: flex;
   align-self: end;
   box-shadow: 2px 2px black;
   width: 55px;
   justify-content: center;
 }
-.btn-add:hover{
+
+.btn-add:hover {
   color: rgb(140, 0, 255);
   cursor: pointer;
 }
-.links{
+
+.links {
   list-style-type: none;
   padding: 0;
 }
-.remove-btn{
+
+.remove-btn {
   box-shadow: 2px 2px black;
 }
-.remove-btn:hover{
+
+.remove-btn:hover {
   color: rgb(140, 0, 255);
   cursor: pointer;
+}
+
+.contact,
+footer {
+  display: none;
 }
