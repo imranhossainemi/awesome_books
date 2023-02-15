@@ -2,70 +2,95 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
 }
-
-.menu {
-  display: none;
-}
-
-footer {
-  display: none;
-}
-
-.contact {
-  display: none;
-}
-
-.books {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.books .book-list {
-  width: 500px;
-  height: auto;
-  margin: 25px 0;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid hsl(0, 0%, 50%);
-  align-items: center;
-  border-radius: 8px;
-}
-
-.books .book-list .book {
-  width: 90%;
-  height: auto;
+.topNav{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-}
-
-.book-create {
   width: 100%;
-  height: auto;
+  padding: 0px 10px;
+  border: 5px solid;
+  align-items: center;
+  border-radius: 6px;
+}
+.nav-menu{
   display: flex;
-  justify-content: center;
+  gap: 27px;
+  list-style-type: none;
   align-items: center;
 }
-
-.book-create .add-book {
-  width: 300px;
-  height: auto;
+.nav-item:hover{
+  color: rgb(140, 0, 255);
+  cursor: pointer;
 }
-
-.book-create .add-book .form {
+.nav-line{
+  width: 2px;
+  height: 23px;
+}
+.books{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.book-list{
+  display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+border: 3px solid;
+border-radius: 6px;
+}
+.book{
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8.5rem;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0;
+  }
+  
+  .book:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .book:nth-child(odd) {
+    background-color: #eee;
+  }
+  
+.form{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 25px;
+  margin: auto;
+  gap:25px;
+  width:240px;
 }
-
-.book-create .add-book .form input {
-  width: 100%;
-  padding: 15px 5px;
+.line{
+  width: 100px;
+}
+.input{
+  width: 240px;
+  height: 32px;
+}
+.btn-add{
+  display: flex;
+  align-self: end;
+  box-shadow: 2px 2px black;
+  width: 55px;
+  justify-content: center;
+}
+.btn-add:hover{
+  color: rgb(140, 0, 255);
+  cursor: pointer;
+}
+.links{
+  list-style-type: none;
+  padding: 0;
+}
+.remove-btn{
+  box-shadow: 2px 2px black;
+}
+.remove-btn:hover{
+  color: rgb(140, 0, 255);
+  cursor: pointer;
 }

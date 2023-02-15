@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
     <title>Awesome Books</title>
-    <link rel="stylesheet" href="main.css" >
 </head>
 <body>
     <header class="menu">
         <section class="topNav">
             <div class="logo">
                 <p class="logoname">Book list</p>
-                <button type="button" class="mobile-btn">
+                <!-- <button type="button" class="mobile-btn">
                     Open
-                </button>
+                </button> -->
             </div>
-        </section>
-        <section class="downNav">
+
+        <div class="downNav">
             <nav class="navbar">
                 <ul class="nav-menu">
                     <li class="nav-item">Books</li>
+                    <hr class="nav-line">
                     <li class="nav-item">Add Book</li>
+                    <hr class="nav-line">
                     <li class="nav-item">Contact</li>
                 </ul>
             </nav>
+        </div>
         </section>
     </header>
     <main>
@@ -37,9 +40,11 @@
         <section class="book-create">
             <div class="add-book">
                 <form class="form">
-                    <input type="text" name="title" id="title" placeholder="book title">
-                    <input type="text" name="author"  id="author" placeholder="author">
-                    <button type="submit" name="submit" class="btn-add">Abb</button>
+                    <hr class="line">
+                    <h1 class="header">Add books</h1>
+                    <input class="input" type="text" name="title" id="title" placeholder="Book title">
+                    <input class="input" type="text" name="author"  id="author" placeholder="Author">
+                    <button type="submit" name="submit" class="btn-add">Add</button>
                 </form>
             </div>
         </section>
