@@ -58,6 +58,13 @@ const booksLink = document.getElementById('books');
 const addBookLink = document.getElementById('add-book');
 const contactLink = document.getElementById('contact');
 
+function refresh() {
+  contact.style.display = 'none';
+  bookCreate.style.display = 'none';
+  booksSec.style.display = 'block';
+}
+window.onload = refresh();
+
 const navigation = () => {
   booksLink.addEventListener('click', (e) => {
     e.preventDefault();
