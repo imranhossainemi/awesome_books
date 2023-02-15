@@ -26,7 +26,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [personal_portfoilo] <a name="about-project"></a>
+
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 This is Awesome books form microvesre. Using Javasricpt class object array creating and removing localstorage items.
 
@@ -96,6 +97,8 @@ For this projec design I am using form to create localstorage data and class obj
 In order to run this project you need:
     1. A computer 
     2. A internet Browser.
+    3. Clone git : https://github.com/imranhossainemi/awesome_books.git 
+    4.open index.html with your browser or text eidtor 
 
 
 
@@ -141,7 +144,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> 
+Also a contributor <a href="https://github.com/Roland-Ntwali"> Roland-Ntwali
+</a>
 
 <!-- LICENSE -->
 
