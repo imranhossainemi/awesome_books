@@ -13,42 +13,48 @@
             <div class="logo">
                 <p class="logoname">Book list</p>
                 <button type="button" class="mobile-btn">
-                    Open
+                    open
                 </button>
             </div>
         </section>
         <section class="downNav">
             <nav class="navbar">
                 <ul class="nav-menu">
-                    <li class="nav-item">Books</li>
-                    <li class="nav-item">Add Book</li>
-                    <li class="nav-item">Contact</li>
+                    <li class="nav-item" id="books">Books</li>
+                    <li class="nav-item" id="add-book">Add Book</li>
+                    <li class="nav-item" id="contact">Contact</li>
                 </ul>
             </nav>
         </section>
     </header>
     <main>
         <section class="books">
-            <h1>Awesome Books</h1>
-            <div class="book-list">
+            <div class="books-container">
+                <h1>Awesome Books</h1>
+                <div class="book-list">
 
+                </div>
             </div>
         </section>
         <section class="book-create">
-            <div class="add-book">
-                <form class="form">
-                    <input type="text" name="title" id="title" placeholder="book title">
-                    <input type="text" name="author"  id="author" placeholder="author">
-                    <button type="submit" name="submit" class="btn-add">Abb</button>
-                </form>
-            </div>
+            <div class="book-create-container">
+                <div class="add-book">
+                    <form class="form">
+                        <input type="text" name="title" id="title" placeholder="book title">
+                        <input type="text" name="author"  id="author" placeholder="author">
+                        <button type="submit" name="submit" class="btn-add">Abb</button>
+                    </form>
+                </div>
+            </div>    
         </section>
         <section class="contact">
-            <div class="info">
-                <h2>Follow me</h2>
-                <ul class="links">
-                    <li class="link-item">Source Code: <a href="#">Github</a></li>
-                </ul>
+            <div class="contact-container">
+                <div class="info">
+                    <h2>Follow me</h2>
+                    <ul class="links">
+                        <li class="link-item">Source Code: <a href="#">Github</a></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
